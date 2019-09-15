@@ -4,7 +4,7 @@
   "description": "Dj Equipment Finder built by JS with Fake REST API for djs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --watch djproducts.json"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "dj",
-    "dj",
+    "djs",
     "products",
     "pioneer",
     "denon",
