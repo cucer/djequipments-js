@@ -10,8 +10,8 @@ class UIclass {
         <div class="card card-body mb-3">
         <div class="row">
           <div class="col-md-3">
-            <img class="img-fluid mb-2" src="https://www.pioneerdj.com/-/media/pioneerdj/images/products/player/cdj-2000nxs2/black/cdj-2000nxs2-main.jpg">
-            <a href="https://www.pioneerdj.com" target="_blank" class="btn btn-primary btn-block mb-4">View Equipment</a>
+            <img class="img-fluid mb-2" src="../img/${equipment[0].id}.jpg">
+            <a href="${equipment[0].url}" target="_blank" class="btn btn-primary btn-block mb-4">View Equipment</a>
           </div>
           <div class="col-md-9">
             <span class="badge badge-pill badge-primary">Brand ID Repos: ${equipment[0].brandId}</span>
