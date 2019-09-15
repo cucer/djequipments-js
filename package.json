@@ -1,0 +1,41 @@
+{
+  "name": "djequipments",
+  "version": "1.0.0",
+  "description": "Dj Equipment Finder built by JS with Fake REST API for djs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cucer/djequipments-js.git"
+  },
+  "keywords": [
+    "dj",
+    "dj",
+    "products",
+    "pioneer",
+    "denon",
+    "numark",
+    "technics",
+    "players",
+    "mixers",
+    "turntables",
+    "cd",
+    "players",
+    "controllers",
+    "dj",
+    "equipments",
+    "dj",
+    "hardware"
+  ],
+  "author": "Cagatay Ucer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cucer/djequipments-js/issues"
+  },
+  "homepage": "https://github.com/cucer/djequipments-js#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
