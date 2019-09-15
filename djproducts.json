@@ -506,7 +506,7 @@
             "outputs":"1 ANALOGUE (RCA)",
             "arm":"Universal type S-shape tone arm, Gimbal-supported type bearing structure, Static balance type",
             "motor":"Quartz lock, servo-type, direct drive",
-            "turque":"4.5 kgf/cm",
+            "torque":"4.5 kgf/cm",
             "url": "https://www.pioneerdj.com"
         },
         {
@@ -519,7 +519,7 @@
             "outputs":"1 PHONO/LINE (RCA)",
             "arm":"Universal type S-shape tone arm, Gimbal-supported type bearing structure, Static balance type",
             "motor":"Servo-type direct drive",
-            "turque":"1.6 kgf/cm",
+            "torque":"1.6 kgf/cm",
             "url": "https://www.pioneerdj.com"
         },
         {
@@ -532,7 +532,7 @@
             "outputs":"2 RCA outputs (1 stereo pair)",
             "arm":"Effective Length: 9.4” / 238 mm, Overhang: 1.0” / 25 mm, Offset Angle: 20.5°",
             "motor":"Quartz direct-drive",
-            "turque":"5 kgf/cm",
+            "torque":"5 kgf/cm",
             "url": "https://www.denondj.com"
         }                
     ]          

@@ -7,31 +7,33 @@ class RestApi {
         // whatever information you add here, you'll see it in 'data'
         const playersResponse = await fetch(`http://localhost:3000/players?name=${equipment}`);
         const players = await playersResponse.json();        
-        console.log('players:', players);
+        // console.log('players:', players);
 
         const mixersResponse = await fetch(`http://localhost:3000/mixers?name=${equipment}`);
         const mixers = await mixersResponse.json();        
-        console.log('mixers:', mixers);  
+        // console.log('mixers:', mixers);  
 
         const controllersResponse = await fetch(`http://localhost:3000/controllers?name=${equipment}`);
         const controllers = await controllersResponse.json();        
-        console.log('controllers:', controllers);     
+        // console.log('controllers:', controllers);     
         
         const turntablesResponse = await fetch(`http://localhost:3000/turntables?name=${equipment}`);
         const turntables = await turntablesResponse.json();        
-        console.log('turntables:', turntables);          
+        // console.log('turntables:', turntables);          
         
         // console.log('players length:', players.length);
         // console.log('mixers length:', mixers.length);
         // console.log('controllers length:', controllers.length);
         // console.log('turntables length:', turntables.length);
 
+        
         return {
             players,
             mixers,
             controllers,
             turntables
         }
+        
     }
 }
 

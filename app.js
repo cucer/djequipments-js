@@ -11,11 +11,11 @@ searchEquipment.addEventListener('keyup', (e) => {
     const userText = e.target.value;
 
     if(userText !== '') { //if entered equipment is not null
-        console.log('Input:' + userText);
+        // console.log('Input:' + userText);
         // Http call
         restapi.getEquipment(userText)
         .then(data => {//return a promise
-            console.log('data:',data)
+            // console.log('data:',data)
             console.log('players length:', data.players.length);
             console.log('mixers length:', data.mixers.length);
             console.log('controllers length:', data.controllers.length);
