@@ -17,15 +17,12 @@ searchEquipment.addEventListener('keyup', (e) => {
         .then(data => {//return a promise
             console.log('data:',data)
             if(data.eq.length === 0) { //if entered equipment doesn't exist
-                // show alert
                 ui.showAlert('Equipment not found!', 'alert alert-dismissible alert-danger'); //second one is a class name
             } else {
-                // show profile
-                ui.showProfile(data.eq)
+                ui.showEquipment(data.eq)
             }
         }) 
     } else { //if entered user is null
-        // clear profile
-        // ui.clearProfile();
+        ui.clearEquipment();
     }
 });
