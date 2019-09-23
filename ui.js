@@ -13,7 +13,7 @@ class UIclass {
             <a href="${player[0].url}" target="_blank" class="btn btn-primary btn-block mb-4">View Equipment</a>
           </div>
           <div class="col-md-9">
-            <span class="badge badge-pill badge-primary">Brand ID Repos: ${player[0].brandId}</span>
+            <span class="badge badge-pill badge-primary">Brand ID: ${player[0].brandId}</span>
             <span class="badge badge-pill badge-secondary">Equipment ID: ${player[0].id}</span>
             <span class="badge badge-pill badge-success">Dimensions: ${player[0].dimensions}</span>
             <span class="badge badge-pill badge-info">Weight: ${player[0].weight}</span>
