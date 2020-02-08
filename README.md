@@ -2,9 +2,9 @@
 
 I created this fake api for djs and developers who wants to find information about dj equipments.
 
-You can modify or add new products to this API for your projects!
+You can modify or add new products for test!
 
-## How did I create?
+## NPM and GIT init?
 
 ```bash
 mkdir djequipments
